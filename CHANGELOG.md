@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.1.0] - v0.1.0
 
-* TODO: Describe initial release.
+* Implement Sign In With Twitter
