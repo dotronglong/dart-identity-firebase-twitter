@@ -16,11 +16,11 @@ class FirebaseTwitterAuthenticator
   @override
   WidgetBuilder get action => (context) => ActionButton(
       onPressed: () => authenticate(context),
-      color: Color.fromRGBO(86, 172, 239, 1),
+      color: Color.fromRGBO(3, 170, 244, 1),
       textColor: Colors.white,
       icon: Image.asset("images/twitter.png",
           package: "identity_firebase_twitter", width: 24, height: 24),
-      text: "Sign In with Twitter");
+      text: "Sign in with Twitter");
 
   @override
   Future<void> authenticate(BuildContext context, [Map parameters]) async {
