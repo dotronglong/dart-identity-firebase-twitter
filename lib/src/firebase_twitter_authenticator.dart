@@ -2,7 +2,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_twitter/flutter_twitter.dart';
 import 'package:identity/identity.dart';
-import 'package:sso/sso.dart';
 
 class FirebaseTwitterAuthenticator
     with WillNotify, WillConvertUser
